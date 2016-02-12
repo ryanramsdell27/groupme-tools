@@ -7,9 +7,12 @@ transcript-*.json
 transcript-*.txt
 transcript-*.bak
 transcript-*.html
-
+collect
 # text file of my groups and access token, for reference
 mygroups
 
 # python
 *.py[cod]
+
+# html transcript
+/html/*

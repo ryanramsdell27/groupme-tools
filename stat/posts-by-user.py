@@ -23,7 +23,7 @@ Assumes filename.json is a JSON GroupMe transcript.
 
     names = {}
     counts = defaultdict(lambda: {'messages': 0, 'likes_given': 0, 'likes_received': 0})
-    totalLikes = 0
+    totalLikes = 1
 
     for message in transcript:
         name = message[u'name']
